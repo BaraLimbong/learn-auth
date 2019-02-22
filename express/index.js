@@ -5,8 +5,8 @@ const port = 8000
 
 app.use(bodyParser.json())
 
-const all = require('./middlewares')
-const users = require('./middlewares/users')
+const all = require('../middlewares')
+const users = require('../middlewares/users')
 
 app.get('/', all.getHello)
 app.post('/register', users.register)
