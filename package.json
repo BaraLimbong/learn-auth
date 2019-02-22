@@ -1,0 +1,25 @@
+{
+  "name": "learn-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaraLimbong/learn-auth.git"
+  },
+  "author": "BaraLimbong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaraLimbong/learn-auth/issues"
+  },
+  "homepage": "https://github.com/BaraLimbong/learn-auth#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14"
+  }
+}
